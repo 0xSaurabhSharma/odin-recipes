@@ -1,0 +1,32 @@
+* {
+    background-color: hsl(41, 83%, 65%);
+    font-family: 'Times New Roman', Times, serif;
+}
+html {
+    color: hsl(129, 82%, 13%);    
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    text-transform:uppercase;
+    font-style: italic;
+}
+img {
+    max-width: auto;
+    height: 400px;   
+}
+p,
+ul li {
+    font-size: 1.4rem;
+    line-height: 1.2;
+    max-width: 1000px;
+}
+
+ul li a,
+strong {
+    font-weight: bold;
+}
+h1,
+strong {
+    color: hsl(0, 76%, 34%);
+}
