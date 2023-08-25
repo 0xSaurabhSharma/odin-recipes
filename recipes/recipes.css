@@ -17,7 +17,8 @@ img {
 }
 p,
 ul li,
-strong {
+strong,
+ol li {
     font-size: 1.4rem;
     line-height: 1.2;
     max-width: 1000px;
@@ -32,4 +33,15 @@ h1,
 h2,
 strong {
     color: hsl(0, 76%, 34%);
+}
+
+hr {
+    border: 1px dashed hsl(0, 76%, 34%);
+}
+button,
+button a {
+    padding: 5px 10px;
+    font-size: 1.4rem;
+    color: white;
+    background-color: hsl(129, 82%, 13%);
 }
